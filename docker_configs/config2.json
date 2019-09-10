@@ -1,0 +1,4 @@
+{
+  "name": "license_plates",
+  "command": "docker run license_plates"
+}

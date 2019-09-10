@@ -1,0 +1,63 @@
+{
+ "name": "video_processing_server",
+ "version": "2.0.0",
+ "description": "Backend for communicating between video database and video processing algorithms",
+ "main": "src/",
+ "directories": {
+  "test": "tests"
+ },
+ "engineStrict": true,
+ "engines": {
+  "node": ">=11.10.1",
+  "npm": ">=6.8.0"
+ },
+ "scripts": {
+  "api": "nodemon src/API/index.js",
+  "manager": "node src/Process_Manager/index.js",
+  "clean": "rm -rf coverage package-lock.json",
+  "test": "jest",
+  "eslint": "eslint src/ tests/"
+ },
+ "jest": {
+  "collectCoverage": true,
+  "coverageReporters": [
+   "text",
+   "html"
+  ],
+  "setupFiles": [
+   "jest-date-mock"
+  ]
+ },
+ "dependencies": {
+  "aws-sdk": "^2.408.0",
+  "bluebird": "^3.5.3",
+  "body-parser": "^1.18.3",
+  "express": "^4.16.4",
+  "lodash": "^4.17.11",
+  "mongodb": "^2.2.5",
+  "mongodb-core": "~1.0",
+  "node-fetch": "^2.3.0"
+ },
+ "devDependencies": {
+  "eslint": "^5.15.3",
+  "jest": "^24.1.0",
+  "jest-date-mock": "^1.0.7",
+  "nodemon": "^1.18.10",
+  "sinon": "^7.2.5"
+ },
+ "keywords": [
+  "Video Processing",
+  "REST API",
+  "Backend",
+  "Async"
+ ],
+ "contributors": [
+  "Houtan Faridi",
+  "Jeffry Sandoval",
+  "Larry Carranco",
+  "Omar Achkar",
+  "Derrick Ellis",
+  "Chinemerem Njoku"
+ ],
+ "license": "ISC"
+}

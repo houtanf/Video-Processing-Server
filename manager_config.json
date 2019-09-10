@@ -1,0 +1,11 @@
+{
+  "dockerConfigs": "./docker_configs/",
+  "videoStorage": "/tmp/",
+  "resultsStorage": "/tmp/",
+  "awsConfig": "./aws_config.json",
+  "getUrl": "http://127.0.0.1:8080/retrieve",
+  "sendUrl": "http://127.0.0.1:8080/submit",
+  "password": "thisisabadpassword",
+  "pingRate": 5000,
+  "logPath": "./log.txt"
+}

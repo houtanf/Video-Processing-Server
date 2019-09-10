@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  api: 
+    image: todosdp:v1
+    container_name: apiservice
+    command: api
+    ports:
+    - "8080"
+  manager:
+    image: todosdp:v1
+    container_name: managerservice
+    command: manager
+    
+    links:
+    - api
