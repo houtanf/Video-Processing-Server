@@ -2,7 +2,6 @@
  "name": "video_processing_server",
  "version": "2.0.0",
  "description": "Backend for communicating between video database and video processing algorithms",
- "main": "src/",
  "directories": {
   "test": "tests"
  },
@@ -56,8 +55,7 @@
   "Jeffry Sandoval",
   "Larry Carranco",
   "Omar Achkar",
-  "Derrick Ellis",
-  "Chinemerem Njoku"
+  "Derrick Ellis"
  ],
  "license": "ISC"
 }
