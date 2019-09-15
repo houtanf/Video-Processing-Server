@@ -1,4 +1,4 @@
-# Video-Processing-Server [![Build Status](https://travis-ci.org/houtanf/Video-Processing-Server.svg?branch=master)](https://travis-ci.org/houtanf/Video-Processing-Server)
+# Video-Processing-Server [![Build Status](https://travis-ci.org/houtanf/Video-Processing-Server.svg?branch=master)](https://travis-ci.org/houtanf/Video-Processing-Server) [![Coverage Status](https://coveralls.io/repos/github/houtanf/Video-Processing-Server/badge.svg?branch=master)](https://coveralls.io/github/houtanf/Video-Processing-Server?branch=master)
 
 Rest API, database, and server backend for retrieving and processing videos through specified computer vision algorithms. 
 
