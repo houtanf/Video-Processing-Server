@@ -15,7 +15,8 @@
   "manager": "node src/Process_Manager/index.js",
   "clean": "rm -rf coverage package-lock.json",
   "test": "jest",
-  "eslint": "eslint src/ tests/"
+  "eslint": "eslint src/ tests/",
+  "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
  },
  "jest": {
   "collectCoverage": true,
@@ -38,6 +39,7 @@
   "node-fetch": "^2.3.0"
  },
  "devDependencies": {
+  "coveralls": "^3.0.6",
   "eslint": "^5.15.3",
   "jest": "^24.1.0",
   "jest-date-mock": "^1.0.7",
