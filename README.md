@@ -1,4 +1,5 @@
-# Video-Processing-Server
+# Video-Processing-Server [![Build Status](https://travis-ci.org/houtanf/Video-Processing-Server.svg?branch=master)](https://travis-ci.org/houtanf/Video-Processing-Server)
+
 Rest API, database, and server backend for retrieving and processing videos through specified computer vision algorithms. 
 
 
