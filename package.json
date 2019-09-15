@@ -16,13 +16,14 @@
   "clean": "rm -rf coverage package-lock.json",
   "test": "jest",
   "eslint": "eslint src/ tests/",
-  "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  "coveralls": "cat ./coverage/lcov.info | coveralls"
  },
  "jest": {
   "collectCoverage": true,
   "coverageReporters": [
    "text",
-   "html"
+   "html",
+   "lcov"
   ],
   "setupFiles": [
    "jest-date-mock"
