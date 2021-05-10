@@ -34,7 +34,7 @@
   "bluebird": "^3.5.3",
   "body-parser": "^1.18.3",
   "express": "^4.16.4",
-  "lodash": "^4.17.11",
+  "lodash": "^4.17.21",
   "mongodb": "^2.2.5",
   "mongodb-core": "~1.0",
   "node-fetch": "^2.3.0"
