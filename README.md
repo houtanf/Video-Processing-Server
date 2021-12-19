@@ -1,7 +1,8 @@
 # Video-Processing-Server [![Build Status](https://travis-ci.org/houtanf/Video-Processing-Server.svg?branch=master)](https://travis-ci.org/houtanf/Video-Processing-Server) [![Coverage Status](https://coveralls.io/repos/github/houtanf/Video-Processing-Server/badge.svg?branch=master)](https://coveralls.io/github/houtanf/Video-Processing-Server?branch=master)
 
-Rest API, database, and server backend for retrieving and processing videos through specified computer vision algorithms. 
+Rest API, and server backend for retrieving and processing videos through specified computer vision algorithms. 
 
+First API I had written.
 
 ## Install
 To install needed dependendencies run `npm install`.
@@ -19,7 +20,3 @@ To run unit tests and make sure everything is working as intended run `npm test`
 * Video Processing Manager settings can be configured by editing the `manager_config.json` file.
 * AWS settings can be configured by editing the `aws_config.json` file.
 * Docker image and be configured by editing the Docker file.
-TODO: elaborate on configuration.
-
-## Features
-TODO
